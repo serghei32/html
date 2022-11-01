@@ -1,0 +1,29 @@
+.voice-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: rgb(230, 230, 230) ;
+  position: relative;
+
+}
+.voice-button .voice-tip {
+  position: absolute;
+  background-color: rgb(128, 128, 128);
+  color: white;
+  padding: 5px 5px 5px 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  bottom: -20px;
+  left: 2px;
+  bottom: -25px;
+  opacity: 0;
+  justify-content: center;
+  
+  }
+
+  .voice-button:hover .voice-tip {
+    opacity: 1;
+    transition: opacity 0.15s;
+    
+    }

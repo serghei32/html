@@ -1,0 +1,33 @@
+
+#block1 {
+  color: red;
+}
+
+
+.ling {
+color: blue;
+
+}
+
+
+
+.block1, .block2, .block3, .block {
+
+background-color: aqua;
+
+}
+
+.bt1, .bt2, .bt3 {
+  background-color: brown;
+}
+
+div .bt2 {
+background-color: aqua;
+
+}
+
+
+div .green {
+  background-color: rgb(60, 0, 61);
+
+}

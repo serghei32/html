@@ -10,3 +10,24 @@
   text-decoration: ;
   letter-spacing:10px;
  }
+
+ .parent1 {
+  width: 700px;
+  height: 700px;
+  border-style: solid;
+  position: absolute;
+  display: flex;
+  background-color: aqua;
+  z-index: 100;
+  
+ }
+
+ .parent1__child {
+  background-color: grey;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  z-index: 10;
+ }

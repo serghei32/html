@@ -30,7 +30,7 @@ lesson 4
 
 !!! <input type="text" name="user3"> - поле ввода  - строчный тег 
           type  это атрибут который говорит нам что мы будем прописывать. 
-          это может быть и номер и пароль и текст и флажок и кнопки  файл  
+          это может быть и номер и пароль и текст и флажок и кнопки  файл.  
 
   <p> <input type="radio" radio name="beer" value="larger">  светлое пиво </p>
   <p> <input type="radio" radio name="beer" value="larger">  с пиво </p>
@@ -38,6 +38,11 @@ lesson 4
           атрибут name="beer  и есть тот атрибут который обьеденяет эти 2 схожих тега  
           и делает так что бы они работали на выбор с 1 кнопкой. 
   <p> <input type="file" name="file"></p>  
+
+    <div><input checked type="radio" name="gender " value="male "/> Мужской</div>  checked - показывает что он уже выбран. 
+     <div><input disabled type="checkbox" name="boll " value="yes"/> шар</div>   - disable  отключает данный тег 
+
+
 
   !!!  <textarea name="text" id="" cols="30" rows="10"></textarea>   (строчный) ввод большого текста в поле ввода.   
 
@@ -47,6 +52,51 @@ lesson 4
         <option value="1">red</option>      он создает поле в котором можно сделать выбор из эллементов "option"
         <option value="2">green </option>  
         <option value="3">yelow</option>
-        <option value="4">black</option>
+        <option selected value="4">black</option> - selected атрибут. который выбирает эллемент с самого начала. 
     </select>
 
+!!! 
+
+
+
+
++++
+------------------------------------------------------
++ +
+++ 
+lesson 5 
+ctrl+ N  создание чистого нового проекта в редакторе кода. 
+<span class="bigred">Lorem ipsum dolor sit</span> - bigred - это селектор !
+
+span.bigred {CSS}  - так можно добавить класс именнго конкретному span/ 
+                      вводиться без точки в начале. 
+
+
+---выборка первого уровня --
+
+
+
++
+-------------------------------------------------------
++
+lesson6
+типы селекторов 
+.block {}   селекто класса
+
+div {}  селектор типа
+
+div.block {}  селектор типа и класса  . что является более приоритетным. 
+
+быстрый ввод тега с классом - div.block =  <div class="block"></div>
+
+text-align: right; left center/  позиционирование текста 
+
+text-decoration: underline; line-through; overline -  оформление текста. подчеркивания  зачеркивание 
+
+text-indent: 50px; отступ красной строки
+
+letter-spacing: 10px;  - задает расстояние между буквами в параграфе. 
+
+word-spacing: 5px - растояние между словами. 
+
+line-height: 100px;  высота между строками. 

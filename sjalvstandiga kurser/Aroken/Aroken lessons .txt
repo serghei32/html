@@ -15,6 +15,12 @@ alt + w - обернуть выбраные эллементы одним тег
 
 ctrl+shift + 1  вызов редатора в хроме 
 
+!! .orange+ enter = <div class="orange"></div>
+!! div.orange = <div class="orange"></div>
+!! border: 10px solid black; - ввод данных одной строкой.
+     bd+enter = border: 1px solid #000; 
+!! ctrl+ N  создание чистого нового проекта в редакторе кода. 
+
 -------------------------------------------------------------
 lesson 4 
 

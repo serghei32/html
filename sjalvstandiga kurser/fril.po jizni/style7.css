@@ -14,4 +14,19 @@
  height: 100px;
  align-items: center;
  min-height: 100px;
+  width: 500px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: orange;
+  border: 0px solid black;
+  overflow: auto;
+}
+
+.exempel2{
+display: inline-block;
+border: 2px solid black;
+margin-top: 50px;
+width: 500px;
+box-sizing: border-box;
+padding: 5px;
 }

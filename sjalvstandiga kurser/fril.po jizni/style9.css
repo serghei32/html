@@ -14,7 +14,7 @@ body {
 height: 200px;
 border-radius: 15px;
 box-shadow: 0 0 10PX black;
-background: url('../image/frontend.png') 0 0/contain  no-repeat;
+background:  url('../image/bmw.png') left 0/ 80px auto  no-repeat, url('../image/bmw.png') center center/ auto 100% no-repeat;
 
 
 }

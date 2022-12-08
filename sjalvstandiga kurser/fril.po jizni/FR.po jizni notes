@@ -27,6 +27,9 @@ ctrl+shift + 1  вызов редатора в хроме
     ctrl+v -  вставить селекторы в css
 
 
+!! перенос текста в html \ меню вид- перенос по словам
+
+
 
 
 
@@ -196,3 +199,26 @@ https://fls.guru/cssbackground.html -  методичка
 background: url('../ фото'); задание фона  background   фотографией. 
 background: url('img/background/avatar.jpg') 25px 30px no-repeat;  позиционирование
 картинки в блоке 
+--------------------------------------------
+--------------------------------------------
+lesson 10 
+псевдо классы. 
+.list li:first-child {    обрашение к превому эллементу в блоке. 
+color:red; }   
+
+.list li:nth-child(2){  выбор определенного эллемента в списке 
+ color: black;    
+}
+
+.list li:nth-child(odd){  обращение ко всем не четным эллем в списке. 
+text-transform:uppercase;
+}
+
+.list li:nth-child (even) {  обращение ко всем четным эллем в списке. 
+text-transform:uppercase;
+}
+
+на строчные эллементы не действуют высоты "hieght"
+поэтому  добавляеь inle block
+
+padding: 10px 30px; -  настройка первая цифра настрока верха и низа. вторая - право и лево. 

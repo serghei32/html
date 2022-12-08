@@ -1,66 +1,206 @@
-*{
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
 
 body {
-  background:#e8e8e8;
-  padding: ;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e8e8e8;
+  font-family: "Times New Roman PSMT";
+  background: url('../image/BG.png') 50% 130px no-repeat;
+
 }
 .content {
-  padding: 12px 0 127px 0 ;
+  padding: 125px 0  125px 0;
   max-width: 841px;
-  margin: 0px auto;
 
+  margin: 0px auto;
 }
-.content-top {
-  text-align: center;
-  margin: 0 0 70px 0;
+
+
+  .content-top {
+    text-align: center;
+    
+    border: solid black 1px;
+    margin: 0 0 64px 0;
 }
+
+
 .content-top__category {
-  color: rgb(16, 3, 3);
-  font-size: 20px;
-  line-height: 40px;
-  letter-spacing: 2.8px;
+  opacity: 0.6;
+color: #273d46;
+font-family: "Arial MT";
+font-size: 14px;
+font-weight: 400;
+
+line-height: 40px;
+
+text-transform: uppercase;
+
+letter-spacing: 2.8px;
 }
 .content-top__title {
-  color: rgb(16, 3, 3);
-  font-size: 36px;
-  line-height: 40px;
+color: #273d46;
+font-family: "Times New Roman PSMT";
+font-size: 36px;
+font-weight: 400;
+line-height: 50px;
+max-width: 722px;
+margin: 0 auto;
+
+
+
+
 
 }
-
 .content-image {
-  box-shadow: 0 15px 65px black;
-  background-color: #fff;
- text-align: center;
- margin: 0 0 70px 0 ;
+box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+background-color: #fff;
+padding: 10px;
+border: solid black 1px;
+margin: 0 0 85px 0;
+}
+.content-image__item {
+}
+.content-image__item img {
+max-width: 100%;
+
+}
+
+.content-bottom {
+border: solid rgb(6, 32, 150) 1px;
+margin: 0 0 45px 0;
+
+
+
+}
+
+
+.content-bottom__text {
+ color: #9ea2a4;
+font-size: 24px;
+line-height: 40px;
+width: 736px;
+border: solid rgb(224, 13, 13) 1px;
+margin: auto;
+
+
+
+
+}
+
+.content-bottom__text p {
+margin: 0 0 40px 0px;
+
+}
+
+.content-bottom__text p:last-child {
+margin: 0;
+}
+
+
+
+
+.content-bottom-info {
  
-
-}
-
-
-.content-buttom {
-}
-.content-buttom__text {
-  color: black;
-  font-size: 24px;
-  line-height: 40px;
-}
-
-.content-buttom__text p {
-margin: 0 0 40px 0;
+  border: solid rgb(187, 184, 11) 1px;
+  padding-left: 55px;
+  margin: 0px 0 19px 0;
 
 }
 
 
 
-.content-bottom__info {
+
+.content-bottom-info__list li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0px 0 18px 0;
 }
-.content-bottom__info__list {
+
+
+
+
+
+
+
+
+
+.content-bottom-info__list li:last-child {
+  margin: 0px;
 }
-.content-bottom__info__link {
+
+.content-bottom-info__list li:nth-child(1) {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  background: url('../image/check.png') left no-repeat;
+  padding-left:36px ;
+  
+
+}
+
+
+
+.content-bottom-info__list li:nth-child(2) {
+  font-style: italic;
+  color: #80b7b3;
+  background: url('../image/check.png') left no-repeat;
+  padding-left:36px ;
+}
+
+
+.content-bottom-info__list li:nth-child(3) {
+  color: #273d46;
+  font-weight: 700;
+  background: url('../image/check.png') left no-repeat;
+  padding-left:36px ;
+}
+
+
+.content-bottom-info__list li:nth-child(4) span {
+  color: #bec3c5;
+  text-decoration: line-through;
+  font-family: "Arial MT";
+  background: url('../image/check.png') left no-repeat;
+  padding-left:36px ;
+
+}
+
+.content-bottom-info__list {
+margin: 0 0 60px 0;
+
+}
+
+.content-bottom-info__link {
+  height: 45px;
+  background-color: #80b7b3;
+  display: inline-block;
+  padding: 0px 30px;
+  line-height: 46px;
+ border-radius: 22px;
+ text-transform: uppercase;
+ font-size: 14px;
+ color: #ffffff;
+}
+
+.content-bottom-info__link span {
+background: url('../image/Arrow.svg') right no-repeat;
+padding: 0 32px 0 0px;
+
+
+}
+.content-bottom-info__link:active {
+  top: 3px;
+  position: relative;
 }

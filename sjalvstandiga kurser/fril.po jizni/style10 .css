@@ -9,6 +9,9 @@ background-color: aqua;
   list-style: 24px;
   margin: 0 0 30px 0;
 }
+.block p:nth-child(even) {
+  background-color: aqua;
+}
 .link {
   color: rgb(0, 255, 8);
 }
@@ -50,4 +53,16 @@ background-color: aqua;
 .list li {
   font-size: 18px;
   margin: 0 0 20px 0;
+}
+
+.list li:first-child {
+color: green;
+}
+.list li:second-child {
+  color: green;
+  }
+
+.list li:nth-child(even) {
+  background-color: aqua;
+  width: 100px;
 }

@@ -1,16 +1,36 @@
-
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
 body {
   background: #e8e8e8;
   font-family: "Arial MT";
+  
 }
+ul {
 
+}
 
 .content-main {
   width: 841px;
+  border: solid black 1px;
+  padding: 20px;
 }
 
 .title {
-/* Style for "Стилизируй" */
 width: 413px;
 height: 16px;
 color: #000000;
@@ -24,14 +44,139 @@ text-align: left;
 text-transform: uppercase;
 font-style: normal;
 letter-spacing: 2.8px;
+margin-bottom: 20px;
 
 }
 
-.content1 {
+.content {
+  border: solid black 1px;
+  margin: 0 0 15px 0
+;
+
+ 
 }
-.list {
+
+.content li {
+  margin: 0 0 20px 0 ;
+ 
+ 
+ 
+}
+
+.content li:nth-child(1) {
+background:url('../image/check.png') left no-repeat;
+padding: 0 0 8px 30px;
+height: 19px;
+color: #273d46;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: 400;
+letter-spacing: normal;
+line-height: 36px;
+text-decoration: line-through;
+
+}
+
+.content li:active:nth-child(1) {
+  background:url('../image/check.png') left no-repeat;
+  padding: 0 0 8px 30px;
+  height: 19px;
+  color: #273d46;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Arial MT";
+  text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+.content li:nth-child(2) {
+  background:url('../image/check.png') left no-repeat;
+  padding: 0 0 8px 30px;
+  height: 20px;
+  color: #273d46;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+  text-align: left;
+
+}
+.content li:nth-child(2):active {
+  background:url('../image/checkbox-red.jpg') left no-repeat;
+  padding: 0 0 8px 30px;
+  height: 20px;
+  color: #cf0909;
+  font-size: 20px;
+  font-weight: 40;
+  line-height: 36px;
+  text-align: left;
+
+}
+
+
+
+
+
+
+
+.list li {
+  list-style-type: none;
+
 }
 .buttom {
+  display: inline-block;
+  height: 44px;
+
+  background: #80b7b3;
+ justify-content: center;
+  line-height: 46px;
+  margin: 0 0 20px 0;
+  padding: 0  60px ;
+  text-transform: uppercase;
+  border-radius: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 10px 10px 10px black ;
 }
+.buttom span {
+background: url('../image/Arrow.svg') right no-repeat;
+padding-right: 30px;
+
+}
+
+
+.buttom:hover {
+  display: inline-block;
+  height: 44px;
+
+  background: #3a5856;
+ justify-content: center;
+  line-height: 46px;
+  margin: 0 0 20px 0;
+  padding: 0  60px ;
+  text-transform: uppercase;
+  border-radius: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 10px 10px 10px black ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .inp {
 }

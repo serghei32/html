@@ -209,7 +209,6 @@ padding-right: 30px;
 .button:hover {
   display: inline-block;
   height: 44px;
-
   background: #3a5856;
  justify-content: center;
   line-height: 46px;
@@ -245,6 +244,7 @@ padding-right: 30px;
 width: 292px;
 height: 50px;
 border: 1px solid #b0b0b0;
+margin: 0 0 40px 0 ;
 }
 
 .inp:focus {
@@ -252,6 +252,51 @@ width: 292px;
 height: 50px;
 box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
 border: 1px solid #7fbed5;
-cursor: pointer
-;
+cursor: pointer;
+
+}
+
+.checkbox {
+  font-size: 20px;
+  margin-bottom: 50px;
+} 
+.checkbox::before {
+  content: '';
+  display: inline-block;
+  background: url('../image/check.png') left no-repeat;
+  padding: 0 0 0px 40px;
+  height: 20px;     
+  color: #273d46; 
+  font-weight: bold;
+  line-height: 36px;
+  text-align: left;
+}
+
+
+.send {
+  background-color: #273d46;
+  padding: 0 25px 0 25px;
+  height: 40px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+line-height: 38px;
+border-radius: 20px;
+text-transform: uppercase;
+
+
+}
+
+
+.send:active { 
+  background-color: #cf0909;
+}
+
+
+
+
+.send::after {
+content: '';
+background: url('../image/Arrow.svg') right no-repeat;
+padding: 0 50px 0 0 ;
 }

@@ -1,0 +1,28 @@
+body {
+  padding: 10px;
+  background-color: lightcoral;
+  text-align: center;
+}
+
+
+.name {
+  text-align: center;
+}
+.yrke {
+  text-align: center;
+}
+
+
+.text {
+ font-size: 24px;
+ font-weight: 700;
+ text-align: center;
+ width: 400px;
+}
+
+.img{
+  width: 300px;
+  border-radius: 20px;
+  
+
+}

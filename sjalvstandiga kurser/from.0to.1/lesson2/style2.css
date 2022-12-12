@@ -1,0 +1,50 @@
+
+*{
+  margin: 0px;
+}
+
+
+.wraper {
+  width: 1200px;
+   
+}
+.title {
+text-align: center;
+
+}
+.text1 {
+  font-size: 20px;
+  margin: 50px 50px 50px 50px ;
+  background-color: grey;
+ padding: 50px;
+border: solid rgb(211, 18, 18) 5px;
+
+
+
+
+
+
+.text2 {
+  font-size: 18px;
+}
+
+.text3 {
+  font-style: italic;
+}
+.text4 {
+  text-align: right;
+}
+
+
+
+
+
+.images_1 {
+}
+.text3 {
+}
+
+.list {
+}
+.text5 {
+}

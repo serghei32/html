@@ -1,11 +1,10 @@
 body {
-  width: 900px;
   background-color: aqua;
-  margin: 50px auto;
+  border: 1px solid black;
 }
 
 .title {
-  margin: auto auto;
+  
   text-align: center;
   margin-top: 50px;
   margin-bottom: 20px;
@@ -13,17 +12,21 @@ body {
   text-decoration: underline;
 } 
 
-.title1:hover {
-background-color: blue;
-color: white;
-
-
-   
+.title1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding: 5px;
 }
 
 
+.title1:hover {
+  background-color: blue;
+  color: white;  
+}
 
-.title_4{
+.title_4 {
   font-style: italic;
   font-size: 20px;
   color: red;
@@ -31,11 +34,7 @@ color: white;
   margin-left: 10px;
 }
 
-.image_text {
-  margin-bottom: 20px;
-  width: 100%;
-  text-align: center;
-}
+
 
 p {
   margin-bottom: 18px;
@@ -52,4 +51,11 @@ p {
 .list {
   text-decoration: none;
   margin-left: 20px;
+}
+
+.img1 {
+  border: 1px solid red;
+  display: block;
+  margin: 0 auto;
+
 }

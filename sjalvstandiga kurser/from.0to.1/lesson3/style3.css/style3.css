@@ -1,0 +1,18 @@
+.boxg {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  background-color: lightseagreen;
+  border: 1px solid black;
+  order: -1;
+}
+.wraper {
+  display: flex;
+
+ justify-content: space-between;
+
+}
+.boxg1 {
+  order:;
+}

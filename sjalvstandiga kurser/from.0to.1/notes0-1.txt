@@ -35,6 +35,9 @@ transform: rotate(15deg);  поворачивание.
 
 
 transition: &&&_??
+w200+h200 + enter =
+           width: 200px;
+           height: 200px;
 
 
 

@@ -1,18 +1,15 @@
-.boxg {
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  line-height: 200px;
-  background-color: lightseagreen;
+*{
+  box-sizing: border-box;
+}
+.slider {
+  width: 900px;
+  margin: 50px auto;
   border: 1px solid black;
-  order: -1;
-}
-.wraper {
-  display: flex;
 
- justify-content: space-between;
 
 }
-.boxg1 {
-  order:;
+
+.item {
+
+margin-left: ;
 }

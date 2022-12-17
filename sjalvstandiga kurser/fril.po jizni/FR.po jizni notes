@@ -49,9 +49,14 @@ ctrl+shift + 1  вызов редатора в хроме
 !! list-style-type: none; /* Убираем маркеры <ul>
 
 
+!! ul>li*5>a  список + 5 листов + внутри каждого ссылка. !!
+
+!! .container = <div class="container"> </div>
+!! nav.container = <nav class="container"> </nav>
 
 
 
+-------------------------------------------------------------------------
 
 
 

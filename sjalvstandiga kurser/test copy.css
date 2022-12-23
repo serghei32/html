@@ -7,10 +7,13 @@
   border: 1px solid red;
   
 }
+.img1 {
+  width: calc(100% - 50%);
 
+}
 
 .img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  
+ border: 1px solid red;
+ display: block;
 }

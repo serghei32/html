@@ -200,7 +200,7 @@ line-height: 40;
 }
 .button span {
 background: url('../image/Arrow.svg') right no-repeat;
-padding-right: 30px;
+padding-right: 50px;
 
 }
 
@@ -273,7 +273,7 @@ cursor: pointer;
 
 
 .send {
-  background-color: #273d46;
+  background-color: #424627;
   padding: 0 25px 0 25px;
   height: 40px;
   display: inline-block;
@@ -297,5 +297,5 @@ text-transform: uppercase;
 .send::after {
 content: '';
 background: url('../image/Arrow.svg') right no-repeat;
-padding: 0 50px 0 0 ;
+padding: 0 50px 0 0;
 }
